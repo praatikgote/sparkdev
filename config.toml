@@ -1,0 +1,13 @@
+[cli.logs]
+save_logs = true
+path = "/home/codespace/.config/snowflake/logs" 
+level = "info"
+
+[connections.trail]
+account="ac73213.ap-south-1"
+user="pratikgote" 
+password="Pratik@123"
+warehouse="COMPUTE_WH"
+database="DEMO_DB"
+schema="PUBLIC"
+role="ACCOUNTADMIN"
